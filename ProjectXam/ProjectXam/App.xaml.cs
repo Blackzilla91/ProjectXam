@@ -7,13 +7,14 @@ using Xamarin.Forms;
 
 namespace ProjectXam
 {
+    using Views;
     public partial class App : Application
     {
         public App()
         {
             InitializeComponent();
 
-            MainPage = new ProjectXam.MainPage();
+            MainPage = new MainView();
         }
 
         protected override void OnStart()
